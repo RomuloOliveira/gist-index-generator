@@ -42,6 +42,12 @@ Select an output format (Currently, only `markdown` is supported):
 $ python generate-gist-index.py RomuloOliveira -f markdown
 ```
 
+For more help:
+
+```bash
+$ python generate-gist-index.py -h
+```
+
 ## Tests
 
 ```bash
