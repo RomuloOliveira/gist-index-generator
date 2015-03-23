@@ -31,7 +31,8 @@ Index of  of my gist-files. Life is too short to access https://gist.github.com/
 ...
 ```
 
-Write to file:
+Write to file (Not supported yet, see #3):
+
 ```bash
 $ python generate-gist-index.py RomuloOliveira -o gist.md
 ```
