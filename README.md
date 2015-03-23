@@ -1,7 +1,9 @@
 Gist index generator
 ======================
 
-Simple script to generate beautiful indexes for your [gist](https://gist.github.com/).
+Simple script to generate beautiful indexes for your [gist](https://gist.github.com/).  
+
+Example of output in https://github.com/RomuloOliveira/gist-files.
 
 ## Setup
 
