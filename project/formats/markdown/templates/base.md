@@ -7,5 +7,5 @@ Index of  of my gist-files. Life is too short to access {{ url }}
 - [{{ gist.filename }}]({{ gist.url }})  
 {%- if gist.description %}
   - {{ gist.description }}
-{%- endif %}
+{%- endif -%}
 {% endfor %}
