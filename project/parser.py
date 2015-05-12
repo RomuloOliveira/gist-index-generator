@@ -34,7 +34,7 @@ def _parse_gists(data, exclude_fields=None):
     """
     gist = []
     raw_fields = [
-        u'url', u'description', u'comments', u'created_at',
+        u'description', u'comments', u'created_at',
         u'updated_at'
     ]
 
@@ -52,6 +52,11 @@ def _parse_gists(data, exclude_fields=None):
             value = d.get(field)
             if value is not None:
                 g[field] = value
+
+        #
+        # Get human url
+        #
+        g['url'] = d.get('html_url')
 
         #
         # get filename and language, if exists
